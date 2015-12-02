@@ -15,7 +15,7 @@ def write_answers(test):
     return output
     
 question_count = '50'
-points_per_question = '25'
+points_per_question = '20'
 total_points = '1000'
 lang_answers = ('A','D','B','D','C','C','E','E','E','A','B','D','C','E','A','D','B','C','D','A','D','B','C','E','E','A','B','B','C','D','B','C','A','C','A','C','E','B','D','A','E','B','C','D','A','D','E','C','D','E')
 music_answers = ('D','B','B','D','C','C','A','B','B','A','B','B','B','C','E','D','A','C','A','E','E','E','B','E','E','D','A','E','E','D','D','A','C','E','A','C','B','A','E','B','C','A','E','D','B','C','D','C','D','D')
