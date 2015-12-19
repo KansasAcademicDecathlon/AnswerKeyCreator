@@ -28,5 +28,9 @@ test_list.append(create_test( '2', 'Music', music_answers, total_points))
 test_list.append(create_test('11', 'Science', science_answers, total_points))
 test_list.append(create_test( '3', 'Social Science', social_science_answers, total_points))
 
+# Sort the list of tests by test number
+test_list.sort(key=lambda k: int(k['EventNum']))
+
+# Iterate over the list of tests and output each test in a row
 for test in test_list:
     print write_answers(test)
